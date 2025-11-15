@@ -1,0 +1,7 @@
+# Treat SQL dump files as SQL so they are counted by GitHub
+*.sql linguist-language=SQL
+
+# (Optional) Exclude libraries/vendor files from language stats
+vendor/* linguist-vendored
+assets/js/vendor/* linguist-vendored
+node_modules/* linguist-vendored
